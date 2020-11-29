@@ -1,0 +1,43 @@
+body {
+  background-color: black;
+}
+
+h1 {
+  color: white;
+  font-family: verdana;
+  text-align: center;
+}
+
+h2 {
+  color: white;
+  font-family: verdana;
+  text-align: center;
+}
+
+h3 {
+  color: white;
+  font-family: verdana;
+  text-align: center;
+}
+
+p {
+  font-family: verdana;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+
+ul {
+  font-family: verdana;
+  color: white;
+  font-size: 20px;
+  display: table;
+  margin: 0 auto;
+}
+
+.pizza {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
