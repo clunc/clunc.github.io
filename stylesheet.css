@@ -1,43 +1,36 @@
+/*import google fonts*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+
+/*change background color to dark grey*/
 body {
-  background-color: black;
+  background-color: #35363a;
 }
 
-h1 {
-  color: white;
-  font-family: verdana;
+/* navigation background color */
+.navbar {
+  background-color: #35363a; /*#333;*/
+  overflow: hidden;
+}
+
+/* navigation elements configuration */
+.navbar a {
+  float: left;
+  color: #f2f2f2;
+  font-family: "Roboto";
   text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 15px;
 }
 
-h2 {
+/* change colors on hovering */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* change colors on being active */
+.navbar a.active {
+  background-color: #057da6;
   color: white;
-  font-family: verdana;
-  text-align: center;
-}
-
-h3 {
-  color: white;
-  font-family: verdana;
-  text-align: center;
-}
-
-p {
-  font-family: verdana;
-  color: white;
-  font-size: 20px;
-  text-align: center;
-}
-
-ul {
-  font-family: verdana;
-  color: white;
-  font-size: 20px;
-  display: table;
-  margin: 0 auto;
-}
-
-.pizza {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
 }
